@@ -7,6 +7,7 @@ These are two commands that **might** solve the problems people had with jupyter
 ```
 python3 -m pip install --upgrade ipykernel
 python3 -m pip install 'ipykernel<5.0.0'
+```
 
 For mac users you may have to do `sudo` ...
 
