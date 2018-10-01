@@ -1,6 +1,17 @@
 # AlmeriaVB
 This repository contains slides and Jupyter notebooks for VB course in Almeria in Oct 2018. 
 
+# Update: jupyter problems
+These are two commands that **might** solve the problems people had with jupyter (try the first one first, then if that does not solve it, the second afterwards):
+
+```
+python3 -m pip install --upgrade ipykernel
+python3 -m pip install 'ipykernel<5.0.0'
+
+For mac users you may have to do `sudo` ...
+
+
+
 The slides (in the `Slides` folder) are named with the lecture number (1 to 5).
 
 The `Python` folder contains the Jupyter notebooks ([More about Jupyter](http://jupyter.org/index.html)) for the code tasks that will be solved in class. These are **unfinished** code examples, hence will not run before "fixed". What to do to fix them will be discussed in class. 
