@@ -6,7 +6,7 @@ python3 -m pip install --upgrade ipykernel
 python3 -m pip install 'ipykernel<5.0.0'
 ```
 
-For mac users you may have to do `sudo` ...
+For mac and linux users you may have to do `sudo` to get this to run. Windows-users may have to use `python` instead of `python3`.
 
 
 
