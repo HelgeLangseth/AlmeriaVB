@@ -1,6 +1,3 @@
-# AlmeriaVB
-This repository contains slides and Jupyter notebooks for VB course in Almeria in Oct 2018. 
-
 # Update: jupyter problems
 These are two commands that **might** solve the problems people had with jupyter (try the first one first, then if that does not solve it, the second afterwards):
 
@@ -12,6 +9,10 @@ python3 -m pip install 'ipykernel<5.0.0'
 For mac users you may have to do `sudo` ...
 
 
+
+
+# AlmeriaVB
+This repository contains slides and Jupyter notebooks for VB course in Almeria in Oct 2018. 
 
 The slides (in the `Slides` folder) are named with the lecture number (1 to 5).
 
