@@ -1,16 +1,3 @@
-# Update: jupyter problems
-These are two commands that **might** solve the problems people had with jupyter (try the first one first, then if that does not solve it, the second afterwards):
-
-```
-python3 -m pip install --upgrade ipykernel
-python3 -m pip install 'ipykernel<5.0.0'
-```
-
-For mac and linux users you may have to do `sudo` to get this to run. Windows-users may have to use `python` instead of `python3`.
-
-
-
-
 # AlmeriaVB
 This repository contains slides and Jupyter notebooks for VB course in Almeria in Oct 2018. 
 
@@ -33,3 +20,13 @@ python3 -m pip install <packagename>
 ```
 
 When everything is installed, you should be able to run `jupyter notebook`in the terminal/from the command-line, which would open a file-picker in your favourite browser. Go to the `Python`folder and choose one of the notebooks there. You should see some explanation and some cells of code if everything works. 
+
+## Update: jupyter problems
+These are two commands that **might** solve the problems people had with jupyter (try the first one first, then if that does not solve it, the second afterwards):
+
+```
+python3 -m pip install --upgrade ipykernel
+python3 -m pip install 'ipykernel<5.0.0'
+```
+
+For mac and linux users you may have to do `sudo` to get this to run. Windows-users may have to use `python` instead of `python3`.
